@@ -213,7 +213,7 @@ footer {
 }
 
 .offering {
-  background: #EEE;
+  background: palegoldenrod;
   border: 1px solid black;
   margin-top: 30px;
   width: 48%;
@@ -258,4 +258,18 @@ footer {
   list-style-position: inside;
   line-height: 2;
   margin-top: 15px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.vision-header-img {
+	margin-top: 30px;
+}
+
+span {
+  text-decoration: line-through;
 }
