@@ -213,7 +213,7 @@ footer {
 }
 
 .offering {
-  background: #EEE;
+  background: palegoldenrod;
   border: 1px solid black;
   margin-top: 30px;
   width: 48%;
@@ -258,4 +258,55 @@ footer {
   list-style-position: inside;
   line-height: 2;
   margin-top: 15px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.vision-header-img {
+	margin-top: 30px;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+  header {
+    flex-flow: column wrap;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  .services-header-img {
+    width: 40%;
+  }
+
+  .vision-header-img {
+    width: 40%;
+  }
+
+  .page-title {
+    width: 40%;
+  }
+  .service-content {
+    flex-flow: column wrap;
+    width: 75%;
+  }
+
+  .facts {
+    flex-flow: column wrap;
+  }
+
+  .facts img {
+    width: 30%;
+  }
 }
